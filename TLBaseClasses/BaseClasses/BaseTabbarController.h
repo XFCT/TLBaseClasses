@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseTabbarController.h
 //  TLBaseClasses
 //
 //  Created by 五月同辉 on 2018/3/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BaseTabbarController : UITabBarController
 
 @end
-

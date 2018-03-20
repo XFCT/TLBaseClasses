@@ -15,6 +15,9 @@
 		C133F7A82060B3F1003B10EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C133F7A72060B3F1003B10EA /* main.m */; };
 		C133F7B22060B3F1003B10EA /* TLBaseClassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C133F7B12060B3F1003B10EA /* TLBaseClassesTests.m */; };
 		C133F7BD2060B3F1003B10EA /* TLBaseClassesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C133F7BC2060B3F1003B10EA /* TLBaseClassesUITests.m */; };
+		C133F7CD2060B44F003B10EA /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C133F7CC2060B44F003B10EA /* BaseNavViewController.m */; };
+		C133F7D02060B52A003B10EA /* BaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C133F7CF2060B52A003B10EA /* BaseTabbarController.m */; };
+		C133F7D32060B613003B10EA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C133F7D22060B613003B10EA /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		C133F7B82060B3F1003B10EA /* TLBaseClassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLBaseClassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C133F7BC2060B3F1003B10EA /* TLBaseClassesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLBaseClassesUITests.m; sourceTree = "<group>"; };
 		C133F7BE2060B3F1003B10EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C133F7CB2060B44F003B10EA /* BaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		C133F7CC2060B44F003B10EA /* BaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		C133F7CE2060B52A003B10EA /* BaseTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabbarController.h; sourceTree = "<group>"; };
+		C133F7CF2060B52A003B10EA /* BaseTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarController.m; sourceTree = "<group>"; };
+		C133F7D12060B613003B10EA /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C133F7D22060B613003B10EA /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		C133F7972060B3F1003B10EA /* TLBaseClasses */ = {
 			isa = PBXGroup;
 			children = (
+				C133F7CA2060B426003B10EA /* BaseClasses */,
 				C133F7982060B3F1003B10EA /* AppDelegate.h */,
 				C133F7992060B3F1003B10EA /* AppDelegate.m */,
 				C133F79B2060B3F1003B10EA /* ViewController.h */,
@@ -130,6 +140,19 @@
 				C133F7BE2060B3F1003B10EA /* Info.plist */,
 			);
 			path = TLBaseClassesUITests;
+			sourceTree = "<group>";
+		};
+		C133F7CA2060B426003B10EA /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C133F7CB2060B44F003B10EA /* BaseNavViewController.h */,
+				C133F7CC2060B44F003B10EA /* BaseNavViewController.m */,
+				C133F7CE2060B52A003B10EA /* BaseTabbarController.h */,
+				C133F7CF2060B52A003B10EA /* BaseTabbarController.m */,
+				C133F7D12060B613003B10EA /* BaseViewController.h */,
+				C133F7D22060B613003B10EA /* BaseViewController.m */,
+			);
+			path = BaseClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C133F79D2060B3F1003B10EA /* ViewController.m in Sources */,
+				C133F7D32060B613003B10EA /* BaseViewController.m in Sources */,
+				C133F7CD2060B44F003B10EA /* BaseNavViewController.m in Sources */,
+				C133F7D02060B52A003B10EA /* BaseTabbarController.m in Sources */,
 				C133F7A82060B3F1003B10EA /* main.m in Sources */,
 				C133F79A2060B3F1003B10EA /* AppDelegate.m in Sources */,
 			);
